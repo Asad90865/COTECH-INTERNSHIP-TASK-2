@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header { 
+            background: #1f282b;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 30px;
+            border-bottom: #77d1d6 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        nav {
+            background: #354e56;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77d1d6 3px solid;
+
+        }
+        nav {
+            float: right;
+            margin-top: 10px;
+        }
+        nav a {
+            margin: 0 20px;
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        .content {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .post {
+            margin-bottom: 20px;
+        }
+        .post h2 {
+            color: #333;
+        }
+        .post .date {
+            color: #999;
+            font-size: 0.9em;
+        }
+        .bio {
+            background: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .bio h3 {
+            margin: 0;
+        }
+        .bio image{
+        height:20px;
+        width:20px;
+        }
+        .bio p {
+            margin: 10px 0 0;
+        }
+        .bio section {
+            color:rgb(12, 12, 12);
+            font-size:25px;
+            font-family: Verdana, sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#HOME">HOME</a>
+                <a href="#WORK">WORK</a>
+                <a href="#SUPPORT">SUPPORT</a>
+                <a href="#LOGOUT">LOGOUT</a>
+            </nav>
+        </div>
+    </header>
+        <section class="content">
+            <nav>
+                <section>
+                    <center>
+                    <img src="https://media.istockphoto.com/vectors/businessman-profile-icon-male-portrait-flat-vector-id530838817?k=20&m=530838817&s=170667a&w=0&h=uv1NsUb1a5aC3C8FK14TSxLvEyA77rZJVwdlQh66JQU= ">
+                    <h3>BURK MACKLIN</h3>
+                    <h3>HOME</h3>
+                    <h3>WORK</h3>
+                    <h3>SUPPORT</h3>
+                    <h3>AUTHOR UPDATES</h3>
+                    <h3>RECOMMENDATIONS</h3>
+                    <h3>SETTING</h3>
+                    <h3>SIGN OUT</h3>
+
+                    </center>
+        </section>
+        <section>
+            </nav>
+           <h1><div> <B>ABOUT</B></div></h1> 
+        <div>
+            <span><b><h3>FULL NAME:</h3</b> </span>
+            <span class="contact__subtitle">BURT MACKLIN</span>
+        </div>
+        <div>
+            <span><b><h4>EMAIL:</h4></b> </span>
+            <span class="contact__subtitle">burtmacklin05@gmail.com</span>
+        </div>
+        <div>
+            <span><b><h4>PHONE:</h4></b> </span>
+            <span class="contact__subtitle">1112223334</span>
+        </div>
+            <div>
+                <span><b><h3>ADDRESS:</h3> </b></span>
+                <span class="contact__subtitle">street n0 4,xyz....</span>
+            </div>
+        </div>
+        </section>
+
+        <section class="content">
+            <article class="post" id="post1">
+                <h1><b>CONTENT</b></h1>
+                <h2>First Blog Post</h2>
+                <p class="date">June 1, 2024</p>
+                <p>This is the content of the first blog post. It provides interesting information about a particular topic.</p>
+            </article>
+            
+            <article class="post" id="post2">
+                <h2>Second Blog Post</h2>
+                <p class="date">June 2, 2024</p>
+                <p>This is the content of the second blog post. It continues the discussion or introduces a new topic.</p>
+            </article>
+            
+            <article class="post" id="post3">
+                <h2>Third Blog Post</h2>
+                <p class="date">June 3, 2024</p>
+                <p>This is the content of the third blog post. It concludes the topic or offers additional insights.</p>
+            </article>
+        </section>
+        
+        <section class="bio">
+            <h3>About the Author</h3>
+            <p>Burt macklin is a passionate writer who loves sharing insights on various topics. Follow him on social media for more updates.</p>
+        </section>
+    </div>
+
+</body>
+</html>
